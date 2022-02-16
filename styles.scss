@@ -1,0 +1,108 @@
+$mainRed: #b91646;
+
+html {
+font-family: sans-serif;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #fbf3e4;
+
+}
+
+// NOTE: NAVIGERINGS BAR
+
+.navContainer {
+  width: 100%;
+  background-color: #b91646;
+
+  h4 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+  }
+
+  .aousj{
+    font-size: 1rem;
+    margin-top: -8px;
+  }
+}
+
+// NOTE: MAIN CONTAINER
+
+.main_container {
+  max-width: 1080px;
+  width: 96%;
+  min-height: 450px;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 3rem;
+    margin: 4rem;
+
+    a {
+      padding: 1rem;
+      margin: 0 0.5rem;
+      font-size: 1.2rem;
+      font-family: sans-serif;
+      text-decoration: none;
+      border: 2px solid $mainRed;
+      border-radius: 4px;
+      color: $mainRed;
+      font-weight: bold;
+
+      &:hover {
+        background-color: $mainRed;
+        color: white;
+      }
+    }
+  }
+}
+
+
+// NOTE: FOOTER
+
+.footer_container {
+  width: 100%;
+  background-color: #105652;
+  text-align: center;
+  margin-top: 2rem;
+
+  bottom: 0;
+
+
+  h3 {
+    margin: 0;
+    padding: 1.5rem;
+    color: white;
+    font-size: 0.95rem;
+    font-family: sans-serif;
+  }
+}
+
+// NOTE: START startsida.php
+
+
+#index_card_container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+  font-family: sans-serif;
+
+  .card{
+    padding: 1rem 0;
+  }
+}
+
+// NOTE: END startsida.php
+
+
+// NOTE:
