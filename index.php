@@ -59,7 +59,7 @@ Nej, det är första gången för mig.
   <div class="card">
 <h3>7. Har något varit svårt med denna uppgift?</h3>
 
-<p>Svårast tyckte jag var att använda ifset funktionen, och hur formulär fungerade tillsammans med den. Men det löste sig tillslut. </p>
+<p>Svårast tyckte jag var att använda ifset funktionen, och hur formulär fungerade tillsammans med den. Men det löste sig tillslut.  </p>
 
   </div>
 </div>
