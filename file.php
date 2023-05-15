@@ -19,14 +19,11 @@ if (file_exists($filename)) {
    . '</li></strong>';
   }
 
-} else {
-    echo "FEL: $filename kunde inte hittas";
 }
+else {
+    echo "FEL: $filename kunde inte hittas";
 
-
-
-
-
+}
 
  ?>
 

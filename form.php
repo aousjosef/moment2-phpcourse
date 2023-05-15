@@ -23,16 +23,14 @@ Efternamn: <input type="text" name="lastname" >
 <?php
 
 if (isset($_POST["submitBtn"])) {
-  //Använt empty funktionen för att kolla om innehållet är NULL eller saknar värde
-  if (!empty($_POST ["firstname"]) && ($_POST ["lastname"]) ) {
-    $fName = $_POST ["firstname"];
-    $lName = $_POST ["lastname"];
-    echo "Hej " . $fName . " " . $lName . "!";
-  }
-
-  else {
-    echo "Båda fälten måste fyllas i!";
-  }
+    //Använt empty funktionen för att kolla om innehållet är NULL eller saknar värde
+    if (!empty($_POST ["firstname"]) && ($_POST ["lastname"])) {
+        $fName = $_POST ["firstname"];
+        $lName = $_POST ["lastname"];
+        echo "Hej " . $fName . " " . $lName . "!";
+    } else {
+        echo "Båda fälten måste fyllas i!";
+    }
 }
  ?>
 
@@ -40,6 +38,8 @@ if (isset($_POST["submitBtn"])) {
 
 <h1>Area räknare</h1>
 <form class="" action="calculate.php" method="post">
+
+
   Höjd: <input type="number" name="height" value="">
   <br><br>
   Bredd: <input type="number" name="width" value="">
@@ -53,13 +53,5 @@ if (isset($_POST["submitBtn"])) {
 
 
  ?>
-
-
-
-
-
-
-
-
 
 <?php include("includes/footer.php"); ?>

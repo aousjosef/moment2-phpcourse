@@ -7,10 +7,10 @@ include "includes/header.php";
 
 
 <?php
-$date = date("Y-m-d");
+  $date = date("Y-m-d");
 $time = date("H:i:s");
 $day = date("l");
-
+$var = "hello";
 //Date as Int
 $timeInt = (int) date("H");
 
